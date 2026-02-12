@@ -9,13 +9,18 @@
   <ul>
     <li>
       <a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-2">learning-2</a>
-      - 第二阶段学习分支
+      - 第二章学习分支
     </li>
     <li>
       <a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-3">learning-3</a>
-      - 第三阶段学习分支
+      - 第三章学习分支
+    </li>
+      <li>
+      <a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-4">learning-4</a>
+      - 第四章学习分支
     </li>
   </ul>
+ 
 </details>
 
 ### 🔹 PyTorch 系列分支
