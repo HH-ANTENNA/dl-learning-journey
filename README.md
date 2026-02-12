@@ -16,7 +16,7 @@
       - 第三章学习分支
     </li>
       <li>
-      <a href=" https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-4">learning-4</a>
+      <a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-4">learning-4</a>
       - 第四章学习分支
     </li>
   </ul>
