@@ -98,8 +98,22 @@ This repo is organized by topics across branches. Click to expand:
 
 ---
 
+## 📚 Course Projects
+
+🎓 **[深度学习基础 · 课程项目集](course-projects/README.md)** — 从 MLP 回归到 CNN 分类，从手写 RNN/LSTM 到时序预测与情感分析，再到图像描述生成的完整实验记录。
+
+| 实验 | 内容 | 亮点 |
+|------|------|------|
+| 实验一 | House Prices 房价预测 | 5-Fold CV · Early Stopping · LR Schedule |
+| 实验二 | CIFAR-10 图像分类 | Basic CNN → Optimized → ResNet16 (83.3%) |
+| 实验三 | RNN/LSTM 双任务 | 手写 RNN/LSTM 单元 · 时序 + 情感分析 |
+| 期中 | Image Captioning | Flickr8k · Encoder-Decoder · 中英双语 |
+
+---
+
 ## 🚀 Quick Links
 
 - 📁 [All branches](https://github.com/HH-ANTENNA/dl-learning-journey/branches)
-- 📖 [PyTorch官方文档](https://pytorch.org/docs/stable/)
+- 📚 [Course Projects](course-projects/README.md)
+- 📖 [PyTorch 官方文档](https://pytorch.org/docs/stable/)
 - 🎓 [Dive into Deep Learning (d2l.ai)](https://d2l.ai/)
