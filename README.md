@@ -1,48 +1,105 @@
-# 仓库分支导航门户
-本仓库分支按学习系列和 PyTorch 系列分类管理，点击下方分组可展开/收起，链接直达对应分支。
+# Deep Learning Learning Journey
 
-## 📌 分支总览（自动折叠）
+> My structured path from PyTorch fundamentals to Computer Vision applications — notes, code, and projects along the way.
 
-### 🔹 学习系列分支
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red?style=flat-square&logo=pytorch)](https://pytorch.org)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.8%2B-green?style=flat-square&logo=opencv)](https://opencv.org)
+
+---
+
+## 🗺️ Learning Roadmap
+
+```
+📐 Math Foundations
+    │
+    ├── Linear Algebra, Probability, Calculus
+    │
+🐍 Python for ML
+    │
+    ├── NumPy, Matplotlib, Data Pipeline
+    │
+🔥 PyTorch Fundamentals          ← pytorch-review
+    │
+    ├── Tensors, Autograd, nn.Module, DataLoader
+    │
+🧠 Deep Learning Core            ← learning-2,3,4
+    │
+    ├── MLP, CNN, RNN, Transformer
+    ├── Loss Functions, Optimizers, Regularization
+    │
+🔧 Project Practice              ← pytorch-project-practice
+    │
+    ├── Image Classification, Object Detection
+    ├── Model Deployment, Experiment Tracking
+    │
+🎯 Specialization
+    │
+    └── Computer Vision · HDR · Video Processing
+```
+
+---
+
+## 📌 Branch Navigation
+
+This repo is organized by topics across branches. Click to expand:
+
+### 🔹 Learning Series
+
 <details>
-  <summary>点击展开 learning 系列分支</summary>
-  <ul>
-    <li>
-      <a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-2">learning-2</a>
-      - 第二章学习分支
-    </li>
-    <li>
-      <a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-3">learning-3</a>
-      - 第三章学习分支
-    </li>
-      <li>
-      <a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-4">learning-4</a>
-      - 第四章学习分支
-    </li>
-  </ul>
- 
+<summary>Click to expand</summary>
+<ul>
+<li><a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-2">learning-2</a> — MLP & Backpropagation</li>
+<li><a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-3">learning-3</a> — CNN & Image Classification</li>
+<li><a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/learning-4">learning-4</a> — Advanced Architectures</li>
+</ul>
 </details>
 
-### 🔹 PyTorch 系列分支
+### 🔹 PyTorch Series
+
 <details>
-  <summary>点击展开 pytorch 系列分支</summary>
-  <ul>
-    <li>
-      <a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/pytorch-review">pytorch-review</a>
-      - PyTorch 复习分支
-    </li>
-    <li>
-      <a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/pytorch-project-practice">pytorch-project-practice</a>
-      - PyTorch 项目实战分支
-    </li>
-  </ul>
+<summary>Click to expand</summary>
+<ul>
+<li><a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/pytorch-review">pytorch-review</a> — PyTorch APIs & Patterns</li>
+<li><a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/pytorch-project-practice">pytorch-project-practice</a> — End-to-end CV Projects</li>
+</ul>
 </details>
 
-## 🚀 快速访问
-- **默认主分支**：<a href="https://github.com/HH-ANTENNA/dl-learning-journey/tree/main">main</a>
-- 直接查看所有分支：<a href="https://github.com/HH-ANTENNA/dl-learning-journey/branches">Branches 总览页面</a>
+---
 
-## 📝 分支说明
-- `main`：作为门户分支，用于展示导航和项目说明。
-- `learning-*`：按阶段划分的深度学习学习笔记。
-- `pytorch-*`：PyTorch 相关的复习与项目实战内容。
+## 📋 Prerequisites
+
+- **Python** — comfortable with functions, classes, NumPy
+- **Math** — basic linear algebra (matrix ops), calculus (chain rule), probability
+- **Tools** — Git, VS Code / Jupyter
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| Framework | PyTorch 2.0+, torchvision |
+| Data | NumPy, Pandas, OpenCV |
+| Visualization | Matplotlib, TensorBoard |
+| Environment | Miniconda, Jupyter Notebook |
+
+---
+
+## 📂 Branch Overview
+
+| Branch | Content | Key Topics |
+|--------|---------|------------|
+| `learning-2` | DL Foundations | MLP, activation functions, backprop, gradient descent |
+| `learning-3` | Convolutional Networks | CNN architectures, pooling, batch norm, transfer learning |
+| `learning-4` | Advanced Topics | RNN/LSTM, attention, transformers (WIP) |
+| `pytorch-review` | PyTorch API | Tensors, autograd, Dataset/DataLoader, training loop |
+| `pytorch-project-practice` | Applied Projects | Image classification, object detection, model evaluation |
+
+---
+
+## 🚀 Quick Links
+
+- 📁 [All branches](https://github.com/HH-ANTENNA/dl-learning-journey/branches)
+- 📖 [PyTorch官方文档](https://pytorch.org/docs/stable/)
+- 🎓 [Dive into Deep Learning (d2l.ai)](https://d2l.ai/)
