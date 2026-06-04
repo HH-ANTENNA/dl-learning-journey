@@ -6,7 +6,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red?style=flat-square&logo=pytorch)](https://pytorch.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8%2B-green?style=flat-square&logo=opencv)](https://opencv.org)
 
-[English Docs](README_EN.md)
+[中文文档](README.md)
 
 ---
 
@@ -14,37 +14,23 @@
 
 ```
 📐 Math Foundations
-    │
     ├── Linear Algebra, Probability, Calculus
-    │
 🐍 Python for ML
-    │
     ├── NumPy, Matplotlib, Data Pipeline
-    │
 🔥 PyTorch Fundamentals          ← pytorch-review
-    │
     ├── Tensors, Autograd, nn.Module, DataLoader
-    │
 🧠 Deep Learning Core            ← learning-2,3,4
-    │
     ├── MLP, CNN, RNN, Transformer
-    ├── Loss Functions, Optimizers, Regularization
-    │
+    ├── Loss, Optimizers, Regularization
 🔧 Project Practice              ← pytorch-project-practice
-    │
     ├── Image Classification, Object Detection
-    ├── Model Deployment, Experiment Tracking
-    │
 🎯 Specialization
-    │
     └── Computer Vision · HDR · Video Processing
 ```
 
 ---
 
 ## 📌 Branch Navigation
-
-This repo is organized by topics across branches. Click to expand:
 
 ### 🔹 Learning Series
 
@@ -71,8 +57,8 @@ This repo is organized by topics across branches. Click to expand:
 
 ## 📋 Prerequisites
 
-- **Python** — comfortable with functions, classes, NumPy
-- **Math** — basic linear algebra (matrix ops), calculus (chain rule), probability
+- **Python** — functions, classes, NumPy
+- **Math** — linear algebra (matrix ops), calculus (chain rule), probability
 - **Tools** — Git, VS Code / Jupyter
 
 ---
@@ -88,28 +74,28 @@ This repo is organized by topics across branches. Click to expand:
 
 ---
 
+## 📚 Course Projects
+
+🎓 **[Deep Learning Course Portfolio](course-projects/README.md)** — Complete experiment records from MLP regression to CNN classification, hand-crafted RNN/LSTM to time-series prediction & sentiment analysis, and image captioning.
+
+| Experiment | Topic | Highlights |
+|------------|-------|------------|
+| Lab 1 | House Prices Regression | 5-Fold CV · Early Stopping · LR Schedule |
+| Lab 2 | CIFAR-10 Classification | Basic CNN → Optimized → ResNet16 (83.3%) |
+| Lab 3 | RNN/LSTM Dual Tasks | Hand-written RNN/LSTM · Time-series + NLP |
+| Midterm | Image Captioning | Flickr8k · Encoder-Decoder · Bilingual |
+
+---
+
 ## 📂 Branch Overview
 
 | Branch | Content | Key Topics |
 |--------|---------|------------|
-| `learning-2` | DL Foundations | MLP, activation functions, backprop, gradient descent |
-| `learning-3` | Convolutional Networks | CNN architectures, pooling, batch norm, transfer learning |
-| `learning-4` | Advanced Topics | RNN/LSTM, attention, transformers (WIP) |
-| `pytorch-review` | PyTorch API | Tensors, autograd, Dataset/DataLoader, training loop |
-| `pytorch-project-practice` | Applied Projects | Image classification, object detection, model evaluation |
-
----
-
-## 📚 Course Projects
-
-🎓 **[深度学习基础 · 课程项目集](course-projects/README.md)** — 从 MLP 回归到 CNN 分类，从手写 RNN/LSTM 到时序预测与情感分析，再到图像描述生成的完整实验记录。
-
-| 实验 | 内容 | 亮点 |
-|------|------|------|
-| 实验一 | House Prices 房价预测 | 5-Fold CV · Early Stopping · LR Schedule |
-| 实验二 | CIFAR-10 图像分类 | Basic CNN → Optimized → ResNet16 (83.3%) |
-| 实验三 | RNN/LSTM 双任务 | 手写 RNN/LSTM 单元 · 时序 + 情感分析 |
-| 期中 | Image Captioning | Flickr8k · Encoder-Decoder · 中英双语 |
+| `learning-2` | DL Foundations | MLP, activations, backprop, gradient descent |
+| `learning-3` | ConvNets | CNN, pooling, batch norm, transfer learning |
+| `learning-4` | Advanced | RNN/LSTM, attention, transformers (WIP) |
+| `pytorch-review` | PyTorch API | Tensors, autograd, DataLoader, training loop |
+| `pytorch-project-practice` | Projects | Classification, detection, model evaluation |
 
 ---
 
@@ -117,5 +103,5 @@ This repo is organized by topics across branches. Click to expand:
 
 - 📁 [All branches](https://github.com/HH-ANTENNA/dl-learning-journey/branches)
 - 📚 [Course Projects](course-projects/README.md)
-- 📖 [PyTorch 官方文档](https://pytorch.org/docs/stable/)
-- 🎓 [Dive into Deep Learning (d2l.ai)](https://d2l.ai/)
+- 📖 [PyTorch Docs](https://pytorch.org/docs/stable/)
+- 🎓 [Dive into Deep Learning](https://d2l.ai/)
